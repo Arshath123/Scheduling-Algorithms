@@ -62,6 +62,7 @@ void waiting_time_calculation(int n){
             if(p[j].arrival_time <= time && p[j].remaining_time > 0 ){
                 process = j;///process that has minimum remaining time
                 selected = 1;
+                break;
             }
         }
 
