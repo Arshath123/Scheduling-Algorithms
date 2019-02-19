@@ -44,7 +44,7 @@ void waiting_time_calculation(int n){
         int j;
 
         for(j=0;j<n;j++){
-            if(p[j].arrival_time <= time && p[j].remaining_time <= mini && p[j].remaining_time > 0 ){
+            if(p[j].arrival_time <= time && p[j].remaining_time < mini && p[j].remaining_time > 0 ){
                 process = j;///process that has minimum remaining time
                 selected = 1;
                 mini = p[j].remaining_time;
