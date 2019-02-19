@@ -46,7 +46,6 @@ void waiting_time_calculation(int n){
         int completed = 1;
         for(process=0;process<n;process++){
             if(p[process].remaining_time > 0){
-                printf("P %d %d \n",process+1,p[process].remaining_time);
                 completed = 0;
                 if(p[process].remaining_time > quantum){
                     time += quantum;
