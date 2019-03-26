@@ -1,5 +1,5 @@
 
-///sjfs non pre-emptive with arrival time
+///FCFS with arrival time
 
 #include<stdio.h>
 #include<stdlib.h>
