@@ -12,7 +12,7 @@ struct process{
 void sort_with_arrival_time(int n){
     int i,j;
     ///Bubble Sort..
-    for(i=0;i<n-1;i++){
+    for(i=0;i<n;i++){
         for(j=0;j<n-1-i;j++){
             if(p[j].arrival_time > p[j+1].arrival_time){
                 temp = p[j];
