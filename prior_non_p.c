@@ -11,7 +11,7 @@ struct process{
 void sort_with_priority(int n){
     int i,j;
     ///Bubble Sort..
-    for(i=0;i<n-1;i++){
+    for(i=0;i<n;i++){
         for(j=0;j<n-1-i;j++){
             if(p[j].priority > p[j+1].priority){
                 temp = p[j];
